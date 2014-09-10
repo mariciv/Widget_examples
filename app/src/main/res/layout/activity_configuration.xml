@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white">
+
+    <TextView
+            android:id="@+id/widget_configuration_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your app widget theme"
+            android:textSize="@dimen/text_size_standard"
+            android:textColor="@color/basic_dark"
+            android:fontFamily="sans-serif-light"
+            android:padding="@dimen/widget_configure_dialog_padding"
+            tools:ignore="UnusedAttribute"/>
+
+    <View
+            android:id="@+id/widget_config_divider_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+    <TextView
+            android:id="@+id/light_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_standard"
+            android:padding="@dimen/widget_configure_dialog_padding"
+            android:textColor="@color/secondary_dark"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Light theme"
+            tools:ignore="UnusedAttribute"/>
+
+    <View
+            android:id="@+id/widget_config_divider_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+    <TextView
+            android:id="@+id/dark_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_standard"
+            android:textColor="@color/secondary_dark"
+            android:padding="@dimen/widget_configure_dialog_padding"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Dark theme"
+            tools:ignore="UnusedAttribute"/>
+
+    <View
+            android:id="@+id/widget_config_divider_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+</LinearLayout>
